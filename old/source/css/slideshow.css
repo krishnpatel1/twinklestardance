@@ -1,0 +1,111 @@
+div.wrap {
+width : 980px;
+height:331px;
+margin :0;
+text-align : left;
+float:left;
+}
+div#top div#nav {
+float : left;
+clear : both;
+width : 993px;
+height : 52px;
+margin : 200px 0 0;
+}
+div#top div#nav ul {
+float : left;
+width : 700px;
+height : 52px;
+list-style-type : none;
+}
+div#nav ul li {
+float : left;
+height : 52px;
+}
+div#nav ul li a {
+border : 0;
+height : 52px;
+display : block;
+line-height : 52px;
+text-indent : -9999px;
+}
+div#header {
+margin : -1px 0 0;
+}
+div#video-header {
+height : 683px;
+margin : -1px 0 0;
+}
+div#header div.wrap {
+height : 331px;
+background : url(../images/header-bg_.png) no-repeat 50% 0;
+}
+div#header div#slide-holder {
+z-index : 40;
+width : 993px;
+height : 331px;
+position : absolute;
+}
+div#header div#slide-holder div#slide-runner {
+top :0;
+left :0;
+width : 980px;
+height : 331px;
+overflow : hidden;
+position : absolute;
+}
+div#header div#slide-holder img {
+margin : 0;
+display : none;
+position : absolute;
+}
+div#header div#slide-holder div#slide-controls {
+left : 0;
+bottom : 20px;
+width : 980px;
+height : 46px;
+display : none;
+position : absolute;
+background : url(../images/slide-bg_.png) 0 0;
+}
+div#header div#slide-holder div#slide-controls p.text {
+float : left;
+color : #fff;
+display : inline;
+font-size : 10px;
+line-height : 16px;
+margin : 15px 0 0 20px;
+text-transform : uppercase;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav {
+float : right;
+height : 24px;
+display : inline;
+margin : 11px 15px 0 0;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a {
+float : left;
+width : 24px;
+height : 24px;
+display : inline;
+font-size : 11px;
+margin : 0 5px 0 0;
+line-height : 24px;
+font-weight : bold;
+text-align : center;
+text-decoration : none;
+background-position : 0 0;
+background-repeat : no-repeat;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a.on {
+background-position : 0 -24px;
+}
+div#header div#slide-holder div#slide-controls p#slide-nav a {
+background-image : url(../images/silde-nav.png);
+font:bold 12px/25px Arial, Helvetica, sans-serif;
+color:#fff;
+text-decoration:none;
+}
+div#nav ul li a {
+background : url(../images/nav.png) no-repeat;
+}

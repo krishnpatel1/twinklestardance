@@ -1,0 +1,219 @@
+<?php
+// uncomment the following to define a path alias
+// Yii::setPathOfAlias('local','path/to/local-folder');
+// This is the main Web application configuration. Any writable
+// CWebApplication properties can be configured here.
+return array(
+    'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
+    'name' => 'Twinkle Star Dance',
+    // preloading 'log' component
+    'preload' => array('log'),
+    'defaultController' => 'index/index',
+    // autoloading model and component classes
+    'import' => array(
+        'application.models.*',
+        'application.components.*',
+        'ext.giix-components.*', // giix components
+        'application.modules.rights.*',
+        'application.modules.rights.components.*', // Correct paths if necessary.
+        'ext.slajaxtabs.*', // giix components
+        'application.extensions.fckeditor.FCKEditorWidget.*',
+        'application.helpers.*',
+        'application.extensions.inx.*',
+        'application.extensions.yii-mail.*', //for mail
+        'application.modules.admin.AdminModule',
+        'application.models.User.*',
+    ),
+    'modules' => array(
+        'gii' => array(
+            'class' => 'system.gii.GiiModule',
+            'password' => 'tsd123',
+            'generatorPaths' => array(
+                'ext.giix-core', // giix generators
+            ),
+            'ipFilters' => array('127.0.0.1', '::1'),
+        ),
+        'rights' => array('install' => true, // Enables the installer. 
+        ),
+        'admin',
+    ),
+    // application components
+    'components' => array(
+        'admin' => array(
+            'allowAutoLogin' => true,
+            'autoUpdateFlash' => true,
+            'class' => 'AdminRWebUser',
+            'loginUrl' => array('/admin/login'),
+            'fullname' => '',
+        ),
+	'session' => array(
+            'autoStart' => true,
+        ),
+        'phpThumb' => array(
+            'class' => 'ext.EPhpThumb.EPhpThumb',
+            'options' => array()
+        ),
+        'email' => array(
+            'class' => 'application.extensions.email.Email',
+            'delivery' => 'php', //Will use the php mailing function.  
+        //May also be set to 'debug' to instead dump the contents of the email into the view
+        ),
+        'user' => array(
+            // enable cookie-based authentication
+            'allowAutoLogin' => true,
+        ),
+        // uncomment the following to enable URLs in path-format
+        'urlManager' => array(
+            'urlFormat' => 'path',
+            'showScriptName' => false,
+            'rules' => array(
+                'user' => 'admin/',
+                'user/list/<type:\w+>' => 'admin/packageSubscription/index',
+                'user/update/<id:\w+>/<type:\w+>' => 'admin/packageSubscription/update',
+                'user/delete/<id:\w+>/<type:\w+>' => 'admin/packageSubscription/delete',
+                'user/create/<type:\w+>' => 'admin/packageSubscription/create',
+                'user/videos/list' => 'admin/videos/index',
+                'user/videos/table' => 'admin/videos/admin',
+                'user/video/update/<id:\w+>' => 'admin/videos/update',
+                'user/video/delete/<id:\w+>' => 'admin/videos/delete',
+                'user/pages/update/<id:\w+>' => 'admin/pages/update',
+                'user/configurations/update/<id:\w+>' => 'admin/systemConfig/update',
+                'user/settings/update' => 'admin/adminUser/update',
+                'user/configuration/manage' => 'admin/systemConfig/admin',
+                'user/document/remove/<id:\w+>' => 'admin/packageSubscription/removeDocument',
+                'user/<type:\w+>/remove/<id:\w+>' => 'admin/packageSubscription/removeSubscriptionVideo',
+                'user/studios/manage' => 'admin/users/index',
+                'user/studio/update/<id:\w+>' => 'admin/users/update',
+                'user/studio/delete/<id:\w+>' => 'admin/users/delete',
+                'user/order/update/<id:\w+>' => 'admin/orders/update',
+                'user/settings' => 'admin/users/settings',
+                'user/manage-emails' => 'admin/emailformat/admin',
+                'user/manage-content' => 'admin/pages/admin',
+                'user/orders' => 'admin/orders/admin',
+                'user/send-newsletter' => 'admin/index/sendNewsletter',
+                'user/configuration/<id:\w+==>' => 'admin/configurations/update',
+                'user/genre' => 'admin/genre/admin',
+                'user/category' => 'admin/category/admin',
+                'user/agerange' => 'admin/agerange/admin',
+                'user/homepage' => 'admin/image/admin',
+                'image/uploadPost' => 'admin/image/uploadPost',
+                'user/testimonials' => 'admin/testimonial/admin',
+                
+                // documents //
+                'user/documents' => 'admin/packageSubscriptionDocuments/admin',
+                'user/document/add' => 'admin/packageSubscriptionDocuments/create',
+                'user/document/edit/<id:\w+>' => 'admin/packageSubscriptionDocuments/update',
+                'user/document/add/subscription/<id:\w+>' => 'admin/packageSubscriptionDocuments/addSubscription',
+                'user/document/remove/subscription/<id:\w+>' => 'admin/PackageSubscriptionDocuments/removeSubscriptionFromDocument',
+                'user/document/delete/<document_id:\w+>/<subscription_id:\w+>' => 'admin/packageSubscriptionDocuments/delete',
+                'user/document/add/class/<id:\w+>' => 'admin/packageSubscriptionDocuments/addClassesToDocument',
+                'user/class/add/document/<id:\w+>' => 'admin/classes/addDocumentsToClass',
+                'user/class/remove/document/<id:\w+>' => 'admin/classes/removeDocumentToClass',
+                // my accounts //
+                'user/accounts' => 'admin/users/myAccounts',
+                'users/request/status/<id:\w+>/<is_approve:\w+>' => 'admin/users/getRequestForMonthlySub',
+                'users/requests' => 'admin/users/getRequestForMonthlySub',
+                'users/publish/<id:\w+>' => 'admin/videos/publishOnFb',
+                // users(instructor or dancers)//
+				'user/users/table/<user_type:\w+>' => 'admin/users/listInstructorsDancersTable',
+                'user/users/list/<user_type:\w+>' => 'admin/users/listInstructorsDancers',
+                'user/users/edit/<id:\w+>/<user_type:\w+>' => 'admin/users/addEditInstructorsDancers',
+                'user/users/add/<user_type:\w+>' => 'admin/users/addEditInstructorsDancers',
+                // classes //
+                'user/classes/list' => 'admin/classes/index',
+				'user/classes/table' => 'admin/classes/admin',
+                'user/classes/edit/<id:\w+>' => 'admin/classes/update',
+                'user/classes/videos/<id:\w+>' => 'admin/classes/listClassVideos',
+                'user/classes/addVideos/<id:\w+>' => 'admin/classes/assignVideos',
+                'user/classes/checkout/<id:\w+>/<videoids:([A-Za-z0-9\w-=]+)>' => 'admin/classes/makePayment',
+                'user/videos/chooseVideos/<package_id:\w+>/<type:\w+>/<id:\w+>' => 'admin/videos/chooseVideoToAddYourSubscription',
+				'user/videos/chooseVideosTable/<package_id:\w+>/<type:\w+>/<id:\w+>' => 'admin/videos/chooseVideoToAddYourSubscriptionTable',
+                'user/videos/chooseVideos/<id:\w+>/<type:\w+>' => 'admin/videos/chooseVideoToAddYourSubscription',
+				'user/videos/chooseVideosTable/<id:\w+>/<type:\w+>' => 'admin/videos/chooseVideoToAddYourSubscriptionTable',
+                'user/videos/payment/<order_id:\w+>/<class_id:\w+>' => 'admin/classes/payflowFullPayment',
+                // videos for other users//
+                //'user/videos/chooseVideos/<id:\w+>/<type:\w+>' => 'admin/videos/chooseVideoToAddYourSubscription',                
+                // videos for other users//
+				'user/videos/vtable/<id:\w+>/<type:\w+>' => 'admin/videos/viewDetailsTable',
+                'user/videos/<package_id:\w+>/<type:\w+>/<id:\w+>' => 'admin/videos/viewDetails',
+                'user/videos/<id:\w+>/<type:\w+>' => 'admin/videos/viewDetails',
+                // home page //                
+                'user/dashboard' => 'admin/index/index',
+                'admin/<controller:\w+>/<action:\w+>' => 'admin/<controller>/<action>',
+                //cms url
+                //'index/login-signup/<type:\w+>/<isStudio:\w+>/<id:\w+>' => 'index/login',
+                'index/login' => 'index/login',
+                'index.php/login' => 'index/login',
+                'index/logout' => 'index/logout',
+                'index/<id:\w+>' => 'index/cms',
+                'index' => 'index/index',
+                'index/forgot-password' => 'index/forgotPassword',
+                'site/<type:\w+>/<id:\w+>' => 'site/subscriptions',
+                'index/<type:\w+>/<id:\w+>' => 'index/login',
+                // sample videos url //                
+                'sample/<id:\w+>' => 'site/samples',
+                'site/samples' => 'site/samples',
+                // payment process (iteration-2)
+                'payment/full/<order_id:\w+>/<cart_ids:\w+==>' => 'site/fullPayment',
+                'payment/recurring/<order_id:\w+>/<cart_ids:\w+==>' => 'site/recurringPayment',
+                'unsubscribe/<id:\w+==>' => 'index/unsubscribe',
+                'subscribe/<id:\w+==>' => 'index/subscribe',
+                'Newsletter' => 'index/joinNewsletter',
+                'fb-sign-up' => 'index/facebookRegister',
+                'publish/<id:\w+>' => 'site/watchVideoPublisFb',
+                
+                '<controller:\w+>/<id:\d+>' => '<controller>/view',
+                '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
+                '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+            ),
+        ),
+        /*
+          'db'=>array(
+          'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+          ), */
+
+        // YiiMail Settings //
+        'mail' => array(
+            'class' => 'application.extensions.yii-mail.YiiMail',
+	    'transportType' => 'php',
+	/*	
+            'transportType' => 'smtp', /// case sensitive!            
+            'transportOptions' => array(
+                'host' => 'mail.inheritx.com',
+                'username' => 'client1@inheritx.com',
+                'password' => 'client@123',
+                'port' => '26',
+            //'encryption'=>'ssl',
+            ),*/
+
+            'viewPath' => 'application.views.mail',
+            'logging' => true,
+            'dryRun' => false,
+        ),
+        // uncomment the following to use a MySQL database
+        'db' => array(
+            'connectionString' => 'mysql:host=tsdliveinx.db.8951001.hostedresource.com;dbname=tsdliveinx',
+            'emulatePrepare' => true,
+            'username' => 'tsdliveinx',
+            'password' => 'Yahoo@123',
+            'charset' => 'utf8',
+            'tablePrefix' => '',
+        ),
+        'errorHandler' => array(
+            // use 'site/error' action to display errors
+            'errorAction' => 'site/error',
+        ),
+        'log' => array(
+            'class' => 'CLogRouter',
+            'routes' => array(
+                array(
+                    'class' => 'CFileLogRoute',
+                    'levels' => 'error, warning',
+                ),
+            ),
+        ),
+    ),
+    // application-level parameters that can be accessed
+    // using Yii::app()->params['paramName']
+    'params' => require(dirname(__FILE__) . '/params.php'),
+);

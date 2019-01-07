@@ -1,0 +1,11 @@
+<?php 
+define('DBHOST','twsleekdata.db.8951001.hostedresource.com');
+define('DBUSER','twsleekdata');
+define('DBPASS','SleekInfo@123');
+define('DBNAME','twsleekdata');
+define('FURL','http://twinklestardance.com.previewdns.com');
+define('FPATH',$_SERVER['DOCUMENT_ROOT'].'/');
+define('FCKPATH','../FCKeditor/');
+define('FCK_PATH','../FCKeditor/');
+define('DEBUGMODE',1);
+?>

@@ -1,0 +1,76 @@
+
+===================22-04-2013 22:31:18===================Array
+(
+    [STATE] => 
+    [TYPE] => S
+    [USER4] => 
+    [ZIPTOSHIP] => 
+    [ACCT] => 1117
+    [PROCCVV2] => X
+    [VISACARDLEVEL] => G
+    [EMAIL] => 
+    [EMAILTOSHIP] => 
+    [ADDRESSTOSHIP] => 
+    [METHOD] => CC
+    [TRANSTIME] => 2013-04-22 22:31:16
+    [USER8] => 
+    [USER5] => 
+    [STATETOSHIP] => 
+    [USER3] => 
+    [PHONETOSHIP] => 
+    [USER7] => 
+    [TAX] => 
+    [CARDTYPE] => 0
+    [AVSDATA] => XXN
+    [CITYTOSHIP] => 
+    [USER6] => 
+    [INVNUM] => 
+    [CITY] => 
+    [USER1] => 
+    [DESCRIPTION] => Order description here
+    [HOSTCODE] => A
+    [RESULT] => 0
+    [USER10] => 
+    [USER2] => 
+    [FAX] => 
+    [PONUM] => 
+    [PNREF] => VRCA8D82B457
+    [PHONE] => 
+    [AMT] => 12.99
+    [NAMETOSHIP] => 
+    [ZIP] => 
+    [AUTHCODE] => 163810
+    [EXPDATE] => 0516
+    [RESPMSG] => Approved
+    [COUNTRY] => 
+    [CUSTID] => eyJvcmRlcl9pZCI6IjIzMSIsImFtUGFja2FnZVN1YkRldGFpbHMiOlt7InBhY2thZ2Vfc3ViX2lkIjoiOSIsInR5cGUiOiJTdWJzY3JpcHRpb24iLCJwcmljZSI6IjEyLjk5IiwiY2FydF9kdXJhdGlvbiI6IjEiLCJ2aWRlb19pZCI6IjlfOTMsOV85NCw5XzEwMCJ9XSwiaXNTdHVkaW8iOjF9
+    [ORIGMETHOD] => 
+    [USER9] => 
+    [FAXTOSHIP] => 
+    [NAME] => 
+    [COUNTRYTOSHIP] => US
+    [ADDRESS] => 
+)
+************************************************************
+
+===================22-04-2013 22:31:18===================Array
+(
+    [TYPE] => S
+    [ACCT] => 1117
+    [PROCCVV2] => X
+    [VISACARDLEVEL] => G
+    [PNREF] => VRCA8D82B457
+    [AMT] => 12.99
+    [TRANSTIME] => 2013-04-22 22:31:16
+    [AUTHCODE] => 163810
+    [EXPDATE] => 0516
+    [RESPMSG] => Approved
+    [CUSTID] => eyJvcmRlcl9pZCI6IjIzMSIsImFtUGFja2FnZVN1YkRldGFpbHMiOlt7InBhY2thZ2Vfc3ViX2lkIjoiOSIsInR5cGUiOiJTdWJzY3JpcHRpb24iLCJwcmljZSI6IjEyLjk5IiwiY2FydF9kdXJhdGlvbiI6IjEiLCJ2aWRlb19pZCI6IjlfOTMsOV85NCw5XzEwMCJ9XSwiaXNTdHVkaW8iOjF9
+    [CARDTYPE] => 0
+    [AVSDATA] => XXN
+    [DESCRIPTION] => Order description here
+    [COUNTRYTOSHIP] => US
+    [HOSTCODE] => A
+    [RESULT] => 0
+)
+************************************************************

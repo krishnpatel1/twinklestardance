@@ -1,0 +1,86 @@
+<?php
+$cs = Yii::app()->getClientScript();
+$cs->registerScriptFile(Yii::app()->baseUrl . '/js/jquery.flexslider.js');
+?>
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+        $(function(){
+            //SyntaxHighlighter.all();
+        });
+        $('.flexslider').flexslider({
+            animation: "fade",
+            start: function(slider){
+                $('body').removeClass('loading');
+            }
+        });
+    });
+</script>
+<div class="slider">
+    <div class="flexslider">
+        <ul class="slides">
+            <li><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/banner/TSD-Conference-WEB-031513-01.jpg" /></li>
+            <li><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/banner/TSD-Conference-WEB-031513-02.jpg" /></li>
+            <li><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/banner/TSD-Conference-WEB-031513-03.jpg" /></li>
+            <li><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/banner/TSD-Conference-WEB-031513-04.jpg" /></li>
+            <li><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/banner/TSD-Conference-WEB-031513-05.jpg" /></li>
+        </ul>
+    </div>
+</div>
+<div class="fix">
+    <div class="block">
+        <h1>Increase your school's revenue $113,000* per year! Here’s how:</h1>
+        <ul class="sale">
+            <li>-Increase the number of students at your studio by 140</li>
+            <li>-Increase monthly tuition by $9,000 per month</li>
+            <li>-Increase choreography video sales to students $5020</li>
+            <li>-Increase recital ticket revenue by $8400</li>
+            <li>-Increase dancewear dress code net profit by $5600</li>
+            <li>-Increase recital costume profit by $2800</li>
+            <li>-Increase recital DVD sales by $1040</li>
+        </ul>
+        <ul class="sale">
+            <li>-Increase class picture revenue by $700</li>
+            <li>-Attract students to studio via increased word-of-mouth referrals</li>
+            <li>-Eliminate the need to choreograph new material each season</li>
+            <li>-Eliminate the need to search for and edit new music</li>
+            <li>-Eliminate the need to train new instructor staff</li>
+            <li class="note">*Based on the average experience at 7 Tiffany's Dance Academy locations.</li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="block">
+        <div class="nav">
+            <div class="icon"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/icon/subscribe.png" title=""/></div>
+            <div class="details">
+                <h2>Subscriptions</h2>
+                <p>Please click <?php echo CHtml::link('Learn More',array('site/subscriptions'));?> to be directed to our full list of Subscriptions.</p>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="icon"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/icon/videos.png" title=""/></div>
+            <div class="details">
+                <h2>Sample Videos</h2>
+                <p>Please click <?php echo CHtml::link('Learn More',array('site/samples'));?> to be directed to our list of sample videos.</p>
+            </div>
+        </div>
+        <div class="nav nav_last">
+            <div class="icon"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/icon/contacts.png" title=""/></div>
+            <div class="details">
+                <h2>Contact Us</h2>
+                <p>Please click <?php echo CHtml::link('Learn More',array('site/contact'));?> to be directed to our contact page.</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="quote_area">
+        <div class="user">
+            <span class="img"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/user_img.png" width="97" height="96" alt=""/></span>
+            <h5>Jane Jones,</h5>
+            <h6>Jane Jones Dance Academy</h6>
+        </div>
+        <div class="talkbubble">
+            Quisque a est ante. Ut magna mi, pharetra vel fermentum ut, convallis non dui. Nullam sit amet fermentum nibh. Donec condimentum nibh massa. Donec eget massa ornare diam mattis luctus. Praesent ullamcorper convallis gravida. Proin eu erat felis. Donec condimentum nibh massa. Donec eget massa ornare diam mattis luctus. Praesent ullamcorper convallis gravida. Proin eu erat felis.
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>

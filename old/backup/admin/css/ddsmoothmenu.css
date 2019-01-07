@@ -1,0 +1,135 @@
+/*.ddsmoothmenu{
+font:12px Arial, Helvetica, sans-serif;
+width: auto;
+padding:0 0 0 60px;
+border-top:1px solid #000000; border-bottom:1px solid #000000; background:url(../images/nav_bg.jpg) left repeat-x; padding:0 30px;
+}*/
+
+.ddsmoothmenu {
+    background: url("../images/nav_bg.jpg") repeat-x scroll left center transparent;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+    font: 12px Arial,Helvetica,sans-serif;
+    margin: 0 auto;
+    padding: 0 0 0 60px;
+    width: auto;
+}
+
+.ddsmoothmenu ul{
+z-index:100;
+margin: 0 0 0 0px;
+padding: 0;
+list-style-type: none;
+}
+
+.ddsmoothmenu ul li{
+position: relative;
+display: inline;
+float: left;
+background:url(../images/nav1_sep.gif) no-repeat 100% 0;
+}
+.ddsmoothmenu ul li a{
+display: block;
+color: #ffffff;
+padding: 8px 10px;
+text-decoration: none;
+}
+.ddsmoothmenu ul li ul li {
+border-bottom:1px solid #6e443e;
+border-left:1px solid #6e443e;
+border-right:1px solid #6e443e;
+}
+.ddsmoothmenu ul li ul li a{
+display: block;
+background:#320c06;
+color:#ffffff !important;
+padding: 8px 10px;
+text-decoration: none;
+text-align:left;
+}
+.ddsmoothmenu ul li ul li a:hover {
+background:#6e443e;
+color:#fff !important;
+}
+
+* html .ddsmoothmenu ul li a{ 
+	display: inline-block;
+}
+
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited{
+	color:#ffffff;
+}
+
+.ddsmoothmenu ul li a.selected{
+	/*background-image:url(../images/nav2_parent_arrow.gif);*/ background-position:100% 100%; background-repeat:no-repeat;  
+	color:#fff;
+}
+
+.ddsmoothmenu ul li a:hover{
+	color:#220703;
+}
+	
+.ddsmoothmenu ul li ul{
+position: absolute;
+left: 0;
+display: none; 
+visibility: hidden;
+}
+
+.ddsmoothmenu ul li ul li{
+display: list-item;
+float: none;
+}
+
+.ddsmoothmenu ul li ul li ul{
+top: 0;
+}
+
+.ddsmoothmenu ul li ul li a{
+font: normal 12px Arial, Helvetica, sans-serif;
+width: 160px; /
+padding: 5px;
+margin: 0;
+border-top-width: 0;
+}
+
+* html .ddsmoothmenu{height: 1%;} 
+
+
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+border:none;
+display:none;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: silver;
+}
+
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+opacity: 0.8;
+}
+.left-content{float:left; width:auto; padding: 0 3px;}
+.right-content{float:right; width:auto; padding:0 18px 0 3px;}
+.attribOuterContainer{width:100%; padding: 1px 0; float:left; background-color:#d8d8d8; border-bottom:1px solid #b5b5b5; margin:0 0 3px 0;}
+
+
+
+
+

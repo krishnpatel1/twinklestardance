@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<title>2014 TSD User Conference</title>
+	<link href="css/reset-app.css" rel="stylesheet">
+    <link href="css/unsemantic-grid-base.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
+    <script src="js/jquery-latest.min.js"></script>
+    <script src="js/functions.js"></script>
+    
+    <!-- Google Analytics Event Tracking Code -->
+    <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-44470425-1']);
+            _gaq.push(['_trackPageview']);
+
+            _gaq.push(['t2._setAccount', 'UA-44470425-1']);
+            _gaq.push(['t2._setDomainName', 'twinklestardance.com']);
+            _gaq.push(['t2._trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+    </script>
+    
+    <!-- Google Analytics Tracking Code -->
+    <script type="text/javascript">
+
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-44470425-1', 'twinklestardance.com');
+            ga('send', 'pageview');
+
+    </script>
+        
+</head>
+
+<body>
+	<div id="wrapper">
+    	<div class="wrap-container" id="section1">
+            <div class="grid-container">
+                <div class="grid-35">
+                     <a href="/index"><img src="images/img1.jpg" /></a>
+                </div>
+                <div class="grid-65">
+                	<p>For More Information Call (925) 583-2830 or Send Us an <a href="mailto:amanda@twinklestardance.com"><span>Email</span></a></p>
+                </div>
+            </div>
+         </div><!-- [END] #section1 -->
+         
+         <div class="wrap-container" id="section2">
+         	<img src="images/slider.png" />
+         </div><!-- [END] #section2 -->
+         
+         <div class="wrap-container" id="section3">
+         	<div class="grid-container">
+            	<div class="grid-100">
+                    <h3>Twinkle Star Dance Annual Conference</h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="grid-container" style="padding:20px 0px;">
+            	<div class="grid-50" id="section3_left">
+                	<div class="box-blue">
+                    	<h5>AUGUST 26 - 28, 2016</h5>
+                        <p style="text-decoration:underline;"><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=14073499">Red Rock Resort and Spa</a></p>
+                        <p style="text-decoration:underline;"><a href="https://resweb.passkey.com/Resweb.do?mode=welcome_ei_new&eventID=14073499">11011 W Charleston Blvd, Las Vegas, NV 89135</a></p>
+                        <p style="text-decoration:none;">Hotel Reservations: 866-767-7773</p>
+                        <p style="text-decoration:none;">(Use the code RCITSD)</p>
+                    </div>
+                    <div class="box-blue">
+                    	<h5>TICKETS</h5>
+                        <p>Current Twinkle Star Dance Subscriber</p>
+                        <div id="register-now">
+                            <p><span>Cost: $249</span> <br /><span>if registered on or before January 1, 2016</span></p>                            
+                        </div>
+                        <div id="register-now">
+                            <p><span>Cost: $299</span> <br /><span>if registered after January 1, 2016</span></p>                            
+                        </div> 
+                        <div class="clearfix"></div>                   
+                    </div>
+                    <div class="box-blue">
+                    	<p>Not a Subscriber Yet?</p>
+                        <div id="register-now">
+                            <p><span>Cost: $399</span> <br /><span>if registered on or before January 1, 2016</span></p>                            
+                        </div> 
+                        <div id="register-now">
+                            <p><span>Cost: $449</span> <br /><span>if registered after January 1, 2016</span></p>                            
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="box-blue">
+                        <div id="register-now">
+                            <a target="_blank" href="https://docs.google.com/forms/d/1jyUUW3w6ryDxJp1WzsytBjysyHNzJ5xxQ7kafaSz62U/viewform?c=0&w=1"><img src="images/register.png" /></a>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="box-red" style="margin-top:10px;">
+                    	<h5>Not a Twinkle Star Dance User yet?</h5>
+                        <div id="join-now">
+                            <p><a href="http://www.twinklestardance.com/index/login"><img src="images/join-now.png" /></a></p>
+                            <p>Become a user and save <br > $100 in conference fees!</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>                
+                <div class="grid-50" id="section3_right">
+                	<div class="grid-100 grid-parent">
+                		<?php
+						$line = '';
+						$file = 'thing.txt';
+						if($f = fopen($file, 'r')){
+						  $line = fgets($f); // read until first newline
+						  fclose($f);
+						}
+						echo '<p class="ticket" style=""><a class="ticket" href="#">'. $line .' Tickets</br>Left</a></p>';
+						?>
+                        <div>
+                        	<ul>
+                            	<li><a href="#section4"><span>About the Conference</span></a></li>
+                                <li><a href="#section5"><span>Workshops</span></a></li>
+                                <li><a href="#section6"><span>Daily Schedule</span></a></li>
+                                <li><a href="#section7"><span>Location</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid-100 clearfix">
+                    <p style="font-size:18px;">This three day conference is geared toward the studio owner, an administrator/studio manager and a key instructor. We'll show you the proven recreational curriculum and choreography that increased each of Tiffany's studios' revenue by over $100k per year and the business systems that make owning a dance studio a joy. </p>
+                    </div>
+                </div>
+            </div>
+         </div><!-- [END] #section3 -->
+         
+         <div class="wrap-container" id="section4">
+         	<div class="grid-container">
+                <div class="grid-30 left">
+                    <p><img class="aligncenter" src="images/about-the-conference.png" /></p>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/1jyUUW3w6ryDxJp1WzsytBjysyHNzJ5xxQ7kafaSz62U/viewform?c=0&w=1"><img class="aligncenter" src="images/register-now-gold.png" /></a></p>
+                    <h5>What makes this conference so amazing and different?</h5>
+                    <p style="font-size:18px;">The answer is action!</p>
+                    <p>Not only will you and your staff learn new curriculum and choreography that you will take home with you, you'll also immediately implement exciting new business practices guaranteed to make your dancers and their parents happier, decrease your workload and increase profits.</p>
+                </div>
+                <div class="grid-70 right">
+                	<h2><small>Do you sometimes forget why you opened your dance studio or decided to become a dance educator?</small></h2>
+                    <h5><small>Are you hopelessly bogged down in paperwork, schedules and management? Wouldn’t it be amazing to get back to what you love? <span><b>Teaching Dance!</b></span></small></h5><br>
+                    <p>Twinkle Star Dance and CostumeManager.com are two companies started and run by Paul and Tiffany Henderson, owners of 8 successful dance academies in California.  You’ll learn how they thrive in a competitive marketplace, and more importantly, how they love every moment of their lives.  By implementing a few key processes in your studio you’ll rediscover the joy of dance and the joy of owning and operating a successful business.</p>
+
+<p>Paul will show you how to eliminate 90% of your costuming workload while significantly increasing your net profit.</p>
+
+<p>And then, we’ll give you the business tricks of the trade that make it possible to actually decrease your administrative workload while simultaneously increasing your net profit. </p> 
+
+<p>Unlike other conferences where the inspiration fades the minute you head home, our dedicated implementation team will ensure you’re up and running before you leave on Sunday.</p>
+                    <div class="grid-parent clearfix">
+                        <div class="grid-45 grid-parent">
+                        	<h5>Speakers</h5>
+                            <img class="alignleft" src="images/tiffany-rev-2.jpg" />
+                            <h5>Tiffany Henderson</h5>
+                            <p>Who does Tiffany Henderson think she is? Above all? Experienced.</p>
+                            <p>She produces four Nutcracker’s each December, a professional dance performance each January in San Francisco and her 300 performing company dancers participate in 4 convention competitions and a Nationals competition each season, and she runs 25 recitals in the month of June. Oh yeah, she also still teaches 15 hours a week and is a regular guest speaker at Dance Teacher Summit, DanceLife Conference, DanceTeacherWeb LIVE Conference and contributor to Dance Teacher magazine, DanceStudioOwner.com and Dance Informa Magazine.</p>
+                            <a class="Lstyle pop" href="about_tiffany_henderson.html">+ <span>View Full Bio</span></a>
+                        </div>
+                        <div class="grid-45 grid-parent prefix-10 padding-Top">
+                        	<img class="alignleft" src="images/paul-rev-2.jpg" />
+                            <h5>Paul Henderson</h5>
+                            <p>Paul's goal in life has been to smooth out the business processes of the dance studios so Tiffany can focus on doing what she loves...teaching dance.  He is the General Manager of Tiffany's Dance Academy, Founder and President of CostumeManager.com and a dance business systems expert.</p>
+                            <a class="Lstyle pop" href="about_paul_henderson.html">+ <span>View Full Bio</span></a>
+                            <br /> <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div><!-- [END] #section4-->
+         
+         <div class="wrap-container">
+         	<div class="grid-container">
+            	<a class="Lstyle alignright top" href="#">+ <span>Back to Top</span></a>
+            </div>
+         </div>
+         
+              <div class="wrap-container" id="section5">
+         	<div class="grid-container">
+                <div class="grid-30 left">
+                    <p><img class="aligncenter" src="images/workshops.png" /></p>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/1jyUUW3w6ryDxJp1WzsytBjysyHNzJ5xxQ7kafaSz62U/viewform?c=0&w=1"><img class="aligncenter" src="images/register-now-gold.png" /></a></p>
+                    <p  style="font-size:18px;">"We love the Twinkle Star Dance program, resources, marketing information, and the incredible staff that is always willing to help with anything! We love the network of other studio owners and teachers that we share ideas and information with. The program has made it possible for us to be opening our second location."</p>
+                    <p>- Rachel Turnage, Pointe of Dance Studio</p>
+                </div>
+                <div class="grid-70 right">
+                	<h2 style="font-family:helvetica;">By implementing a few key processes in your studio you'll discover the freedom and joy of owning and operating a successful dance studio business.</h2>
+                    <div class="grid-parent clearfix padding-Top">
+                        <div class="grid-45 grid-parent">
+                        	<h5>Featured Workshops:</h5>
+                        </div>
+                        <div class="grid-45 grid-parent prefix-10">
+                            <a class="Lstyle pop" href="business_workshop.html">+ <span>View Sample Workshops</span></a>
+                        </div>
+                    </div>
+                    <div class="grid-parent clearfix">
+                        <div class="grid-45 grid-parent padding-Top">
+                            <h5>Dance Movement Classes</h5>
+                            <ul style="margin:0px;">
+                            	<li>Holidays in the Classroom</li>
+                                <li>Twinkle Stars Class Elements Ages 2-6</li>
+                                <li>Twinkle Stars Recital Choreography</li>
+                                <li>Show Stars Class Elements Ages 6+</li>
+                                <li>Show Stars Recital Choreography</li>
+                                <li>Fire It Up Adult Dance Fitness Ages 18+</li>
+                            </ul>
+                        </div>
+                        <div class="grid-45 grid-parent prefix-10 padding-Top">
+							<h5>And Then There Were Two</h5>
+                            <h5>Expand your studio locations</h5>
+                            <p>Are you considering expanding to more than one location?  We’ll weigh the pros and cons and give you the hints, tips and tricks to pull it off without biting off more than you can chew.</p>
+                        </div>
+                    </div>
+                    <div class="grid-parent clearfix padding-Top">
+                        <div class="grid-45 grid-parent">
+                            <h5>Raise funds.  Lower stress.</h5>
+                            <p>Earn extra profit of $100 per dancer per class per season without spending a penny.  Introducing Storefront Fundraising by CostumeManager.com.  We’ll show you how to “sell” dozens of products to your dancers that they are going to buy anyway from someone.  Best of all, you’ll spend no money, purchase no inventory, take no risk and earn monthly commission.</p>
+                        </div>
+                        <div class="grid-45 grid-parent prefix-10">
+                            <h5>Recital in a Box</h5>
+                            <p>Come and receive the tools to plan an entire recital in 60 minutes, including Costumes, Music, Choreography, and Production Elements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div><!-- [END] #section5-->
+         
+         <div class="wrap-container">
+         	<div class="grid-container">
+            	<a class="Lstyle alignright top" href="#">+ <span>Back to Top</span></a>
+            </div>
+         </div>
+         
+         <div class="wrap-container" id="section6">
+         	<div class="grid-container">
+                <div class="grid-30 left">
+                    <p><img class="aligncenter" src="images/schedule.png" /></p>
+                    <p><a target="_blank" href="https://docs.google.com/forms/d/1jyUUW3w6ryDxJp1WzsytBjysyHNzJ5xxQ7kafaSz62U/viewform?c=0&w=1"><img class="aligncenter" src="images/register-now-gold.png" /></a></p>
+                    <p style="font-size:18px;">"Since attending the User Conference in August 2014 I have implemented e-ticketing, a Nutcracker production, Storefront by CostumeManager.com for my dance wear and costumes, AND a Daddy Daughter Dance. I made $10,000 net profit from my Nutcracker alone! I am excited for my first full year implementing the Twinkle Star Dance and Show Stars programs because the Nutcracker production and Daddy Daughter Dance are giving me the resources I needed to get out of the office and back into the classroom, where I really want to be!"</p>
+                    <p>– Kelly, LeRoux School of Dance</p>
+                </div>
+                <div class="grid-30 prefix-5 center">
+                    <h5>Friday, August 26, 2016</h5>
+                    <a class="Lstyle alignleft pop" href="class_schedule_for_friday.html">+ <span>View Sample Schedule</span></a>
+                    <p class="padding-Top Robotobold margin-zero">Session</p>
+                    <p>8:00am - 5:15pm</p>
+                    <p class="padding-Top Robotobold margin-zero">Special Events</p>
+                    <p class="margin-zero">Opening Breakfast</p>
+                    <p>Sponsored by Etix</p>
+                    <p class="margin-zero">Lunch and Fashion Show</p>
+                    <p>Sponsored by Costume Gallery</p>
+                    <p class="margin-zero">Studio Owner Cocktail Party</p>
+                    <p>Sponsored by Break the Floor Productions</p>
+                    
+                    <h5 class="margin-Top">Saturday, August 27, 2016</h5>
+                    <a class="Lstyle alignleft pop" href="class_schedule_for_saturday.html">+ <span>View Sample Schedule</span></a>
+                    <p class="padding-Top Robotobold margin-zero">Sessions</p>
+                    <p>9:00am - 5:15pm</p>
+                    <p class="padding-Top Robotobold margin-zero">Special Events</p>
+                    <p class="margin-zero">Breakfast</p>
+                    <p>Sponsored by CostumeManager.com</p>
+                    <p class="margin-zero">Lunch and Sparkle Awards</p>
+                    <p>Sponsored by Revolution Dancewear</p>
+                    <p class="margin-zero">Studio Owner Cocktail Party</p>
+                    <p>Sponsored by Break the Floor Productions</p>
+                </div>
+                <div class="grid-30 prefix-5 right ">
+                	<h5>Sunday, August 16, 2016</h5>
+                    <a class="Lstyle alignleft pop" href="class_schedule_for_sunday.html">+ <span>View Sample Schedule</span></a>
+                    <p class="padding-Top Robotobold margin-zero">Subscriber Session</p>
+                    <p>8:30am - 4:00pm</p>
+                    <p class="padding-Top Robotobold margin-zero">Non-Subscriber Session</p>
+                    <p>10:15am - 11:45pm</p>
+                    <p class="padding-Top Robotobold margin-zero">Special Events</p>
+                    <p>Subscriber Breakfast</p>
+                    <p>Twinkle Star Dance Subscribers - Private Teacher Training and Certification</p>              
+                    <p>Closing Ceremony</p>
+                </div>
+            </div>
+         </div><!-- [END] #section6-->
+         
+          <div class="wrap-container">
+         	<div class="grid-container">
+            	<a class="Lstyle alignright top" href="#">+ <span>Back to Top</span></a>
+            </div>
+         </div>
+         
+         <div class="wrap-container" id="section7">
+         	<div class="grid-container">
+                <div class="grid-30 left">
+                    <p><img class="aligncenter" src="images/Red-Rock.png" /></p>
+                    <p><a href="https://redrock.sclv.com/"><img class="aligncenter" src="images/book-your-room-gold.png" /></a></p>
+                </div>
+                <div class="grid-30 prefix-5 center">
+                    <h5>Conference and Discounted Lodging at Red Rock Resort and Spa</h5>
+                    <p class="margin-top">Inspired by the natural beauty of the neighboring mountains, Red Rock Casino Resort &amp; Spa pays homage to the elegant mid-century modern resorts that made Las Vegas famous. The design is classic, cool Las Vegas, reinvented for the 21st century. A recipient of the AAA Four Diamond Award since opening and named one of the world's best new hotels by Conde Nast Traveler magazine, Red Rock redefines casino resort architecture by incorporating natural light, a convenient layout and the comforts of a modern lifestyle, making for the perfect Las Vegas hotel rooms &amp; Las Vegas suites.</p>
+                    <p class="margin-Top">Hotel Website: </p>
+                    <p><a href="https://redrock.sclv.com/">https://redrock.sclv.com/</a></p>
+                    <p>Hotel Reservations: (866) 767-7773</p>
+                </div>
+                <div class="grid-30 prefix-5 right ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.3940015743856!2d-115.33578258426735!3d36.15696578008619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8be520fd5ca0d%3A0xd363f3f3370b56af!2s11011+W+Charleston+Blvd%2C+Las+Vegas%2C+NV+89135!5e0!3m2!1sen!2sus!4v1446651162959" width="228" height="209" frameborder="0" style="border:0"></iframe>
+                    <p><b>Red Rock Resort and Spa</b></p>
+                    <p><a href="https://goo.gl/maps/WWZim2fzrME2">11011 W Charleston Blvd</br>Las Vegas, NV 89135</a></p>               
+                </div>
+            </div>
+         </div><!-- [END] #section7-->
+         
+          <div class="wrap-container" id="footer">
+         	<div class="grid-container">
+            	<div class="grid-100" style="margin-bottom: 20px;">
+                	<h5>Sponsored by</h5>
+                </div>
+                <div class="grid-100 grid-parent" style="margin-bottom: 10px;">
+                    <div class="grid-50">
+                        <img class="aligncenter" style="max-height:72px; max-width: 100%;" src="images/costume-gallery.jpg"/>
+                    </div>
+                    <div class="grid-50">
+                        <img class="aligncenter" style="max-height:72px; max-width: 100%;" src="images/costume-manager.png" />
+                    </div>
+                </div>
+                <div class="grid-100 grid-parent" style="margin-bottom: 10px;">
+                    <div class="grid-50">
+                        <img class="aligncenter" style="max-height:72px; max-width: 100%;" src="images/etix.png"/>
+                    </div>
+                    <div class="grid-50">
+                        <img class="aligncenter" style="max-height:72px; max-width: 100%;" src="images/DSOlogo-glow.png"/>
+                    </div>
+                </div>
+                <div class="grid-100 grid-parent" style="margin-bottom: 10px;">
+                    <div class="grid-50">
+                        <img class="aligncenter" style="max-height:72px; max-width: 100%;" src="images/Logo200pxHtrans.png"/>
+                    </div>
+                    <div class="grid-50">
+                        <img class="aligncenter" style="max-height:72px; max-width: 100%;" src="images/Rev-logo - pantone511.png"/>
+                    </div>
+                </div>                
+                <div class="grid-parent">
+                	<br>
+                	<p>©2014 Twinkle Star Dance, Livermore, California</p>
+                </div>
+                </div>
+            </div>
+         </div>
+         
+         
+
+	</div><!-- [END] #wrapper -->
+    <div id="popup"></div>
+    <div id="overlay"></div>
+</body>
+</html>

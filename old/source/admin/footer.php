@@ -1,0 +1,1 @@
+<div class="footer"><?=FOOTER_TEXT?></div>

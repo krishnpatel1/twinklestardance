@@ -1,0 +1,113 @@
+.divider {
+	margin: 10px 0;
+	}
+	
+.button {border:none; background:url(../images/submit-bg.jpg) 0 0 repeat-x; cursor:pointer; padding:2px 3px 2px 3px; font:bold 11px/14px Arial, Helvetica, sans-serif; color:#f2fcde;	}
+.button:hover {
+	}
+.myTable02{ border:1px solid #333333;}
+.myTableWrapper {
+	width: auto;
+	height: auto;
+	}
+
+.fancyTable td, .fancyTable th {
+	/* appearance */
+	border: 1px solid #778899;
+	
+	/* size */
+	padding: 5px;
+	}
+
+.fancyTable {
+	/* text */
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+.fancyTable tbody tr td {
+	/* appearance */
+	background-color: #eef2f9;
+		
+	/* text */
+	color: #262c31;
+	font-size: 11px;
+	}
+
+.fancyTable tbody tr.odd td {
+	/* appearance */
+	background-color: #d6e0ef;
+	}
+
+.fancyTable thead tr th,
+.fancyTable tfoot tr td {
+	/* appearance */
+	background-color: #8ca9cf;
+		
+	/* text */
+	color: #121517;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0 1px 1px #e8ebee;
+	}
+	
+
+/* Fancy Dark Table */	
+.fancyDarkTable .numeric {
+	/* text */
+	text-align: right;
+	}
+
+.fancyDarkTable td, .fancyDarkTable th {
+	border: 1px solid #dadfe0;
+	padding: 2px;
+}
+
+.fancyDarkTable thead tr th {
+	padding: 5px;
+	}
+
+.fancyDarkTable {
+	/*border-collapse: separate;*/
+	
+	/* text */
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+
+.fancyDarkTable tbody tr td {
+	/* appearance */
+	background-color: #f8f8f8;
+	/* size */
+	padding: 5px;
+	/* text */
+	color: #000;
+	font:normal 11px/14px Arial, Helvetica, sans-serif;
+	}
+
+.fancyDarkTable tbody tr.odd td {
+	/* appearance */
+	background-color: #fff;
+	}
+
+.fancyDarkTable thead tr th{
+	background:url(../images/header-bg.png) 0 0 repeat-x;
+	color: #fff;
+	border:1px solid #87a93e;
+	font-size: 12px;
+	font-weight: bold;
+	}
+
+.fancyDarkTable tfoot tr td {
+	background:url(../images/header-bg.png) 0 0 repeat-x;
+	color: #fff;
+	border:1px solid #87a93e;
+	border-top:0px;
+	font-size: 12px;
+	font-weight: bold;
+	}
+	
+.fancyDarkTable .fht-head {
+	z-index: 1;
+	position: relative;
+	}
+.close{ padding:0 3px 0 0;}	
+.submit{ border:1px solid #c71c24; background:url(../images/submit-bg_.jpg) 0 0 repeat-x #e54484; cursor:pointer; padding:2px; font:bold 11px/14px Arial, Helvetica, sans-serif; color:#fff;}

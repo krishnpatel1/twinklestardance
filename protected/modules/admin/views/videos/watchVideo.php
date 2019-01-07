@@ -1,0 +1,1 @@
+<iframe frameborder="0" scrolling="no" width="425" height="266" src="http://api.smugmug.com/services/embed/1482349172_HpTNjR3?width=425&amp;height=266&amp;autoplay=1"></iframe>

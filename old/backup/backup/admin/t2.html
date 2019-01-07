@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>aandgagsupply.com: Administrator Control Panel</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script src="../javascript/jquery.min.js"></script>
+<script type="text/javascript" src="../javascript/jquery-ui-1.8.1.custom.min.js"></script>
+<script type="text/javascript" src="../javascript/jquery.validate.js" ></script>
+<script type="text/javascript" src="../javascript/jquery.fixedheadertable.min.js"></script>
+<script type="text/javascript" src="../javascript/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="../javascript/shadowbox/shadowbox.js"></script>
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+	ddsmoothmenu.init({
+		mainmenuid: "smoothmenu1", //menu DIV id
+		orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+		classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	/*	customtheme: ["#c5da27", "#ff0000"],*/
+		contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]1c5a80
+	})
+
+});
+
+</script>
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css">
+<link type="text/css" href="css/ui-lightness/jquery-ui-1.7.2.custom.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/boxes.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/menu.css" media="screen, projection">
+<link rel="stylesheet" type="text/css" href="../javascript/shadowbox/shadowbox.css">
+<link href="css/defaultTheme.css" rel="stylesheet" media="screen" />
+<link href="css/myTheme.css" rel="stylesheet" media="screen" />
+</head>
+<body id="html-body" class=" adminhtml-promo-catalog-index">
+
+  <div class="header">
+    <div class="header-top"> <a href="index.php"><img src="images/logo.png" alt="Logo" border="0" class="logo"></a>
+      <div class="header-right">
+        <p class="super"> Welcome, Administrator <span class="separator">|</span><a href="adminhome.php" class="link-logout">Home</a><span class="separator">|</span><a href="logout.php" class="link-logout">Log Out</a> </p>
+        <br/>
+        <br/>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <!-- menu start -->
+    <!-- menu end -->
+    <div id="smoothmenu1" class="ddsmoothmenu">
+      <ul>
+        <li> <a href="javascript:void(0)">Home Management</a>
+          <ul>
+            <li> <a href="about_management.php" class="cursor"><span>Middle Panel Management</span></a></li>
+            <li> <a href="main_photo.php" class="cursor"><span>Main Photo</span></a></li>
+            <li> <a href="left_management.php" class="cursor"><span>Left Panel Management</span></a></li>
+            <li> <a href="extra_promo.php" class="cursor"><span>Right Panel Management</span></a></li>
+          </ul>
+        </li>
+        <li> <a href="javascript:void(0)">Product Management</a>
+          <ul>
+            <li> <a href="product_management.php" class="cursor"><span>Product Listings</span></a> </li>
+          </ul>
+        </li>
+        <li> <a href="javascript:void(0)">Faq Management</a>
+          <ul>
+            <li> <a href="faq_management.php" class="cursor"><span>Faq Listings</span></a></li>
+            <li> <a href="faq_right_management.php" class="cursor"><span>Faq Right Panel</span></a></li>
+          </ul>
+        </li>
+        <li> <a href="javascript:void(0)">Documents Management</a>
+          <ul>
+            <li> <a href="documents_management.php" class="cursor"><span>Documents Listings</span></a></li>
+            <li> <a href="msds_management.php" class="cursor"><span>MSDS Library Listings</span></a></li>
+            <li> <a href="document_content.php" class="cursor"><span>Document Content</span></a></li>
+          </ul>
+        </li>
+        <li> <a href="javascript:void(0)">Contact Management</a>
+          <ul>
+            <li> <a href="contact_management.php" class="cursor"><span>Contact Contents</span></a></li>
+            <!-- <li> <a href="contact_photos.php" class="cursor"><span>Contact Photos</span></a></li>
+		  <li> <a href="google_map.php" class="cursor"><span>Google Map</span></a></li>-->
+          </ul>
+        </li>
+        <li> <a href="javascript:void(0)">Menu Management</a>
+          <ul>
+            <li> <a href="menu_management.php" class="cursor"><span>Menu Lists</span></a></li>
+            <!-- <li> <a href="contact_photos.php" class="cursor"><span>Contact Photos</span></a></li>
+		  <li> <a href="google_map.php" class="cursor"><span>Google Map</span></a></li>-->
+          </ul>
+        </li>
+        <li> <a href="javascript:void(0)">Settings</a>
+          <ul>
+            <li> <a href="change_password.php" class="cursor"><span>Change Password</span></a></li>
+            <li> <a href="change_email.php" class="cursor"><span>Change Email</span></a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="clear_menu"></div>
+    </div>
+  </div>
+  <div class="middle" id="anchor-content">
+    <div id="promo_catalog_grid">
+      <div class="box padd">
+        <center>
+          <h1>Welcome to Admin Panel Of aandgagsupply.com </h1>
+        </center>
+      </div>
+    </div>
+  </div>
+  <div class="footer">Website Design by Christina Balch</div>
+
+</body>
+</html>
